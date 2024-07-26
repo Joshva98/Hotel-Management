@@ -1,0 +1,167 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-left:10px;
+    padding-right:10px;
+    
+}
+.bgimg1{
+    background-image: url('instock1.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:100%;
+}
+
+
+.text-box input{
+    border-radius:100px;
+}
+.text-box a{
+    border-radius:100px;
+}
+.Heading{
+    text-align:center;
+    padding-top:200px;
+    color:white;
+}
+.back a{
+    background-color:hsl(31deg 98% 49%);
+}
+/* page2 */
+.page2{
+   background-color:hsl(218deg 100% 19%);
+}
+.page2 .col{
+    color:white;
+    padding:20px;
+}
+/* page3 */
+.box {
+    overflow: hidden; /* Ensure content doesn't overflow */
+    text-align: center; /* Center text inside boxes */
+    padding: 0; /* Remove padding inside the boxes */
+    margin: 0; /* Remove margin between boxes */
+    box-sizing: border-box; /* Include border and padding in the element's total width and height */
+    background-color:(0deg 0% 90%);
+    height:100%;
+    
+}
+.box img {
+    width: 100%; /* Make image fill the width of the box */
+    height: 100%; /* Maintain aspect ratio */
+}
+.box-text {
+ height:100%;
+}
+.no-gutters {
+    margin-left: 0;
+    margin-right: 0;
+}
+.no-gutters .col {
+    padding-left: 0;
+    padding-right: 0;
+}
+.cloud{
+    padding:50px;
+    background-color:hsl(30deg 100% 50%);
+}
+.cloud h3{
+    text-align:center;
+    color:white;
+}
+/* page4 */
+.page4{
+    background-image:url('stock3.jpeg');
+    position: relative; 
+     background-size: cover; 
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height:auto; /* Set the height as needed */
+    color: white!important;
+    
+}
+
+.page4::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(128, 128, 128, 0.5); /* Shadow effect */
+       
+    }
+    .content {
+        position: relative; /* Position relative to ensure it is above the blur and overlay */
+        z-index: 1; /* Higher than the overlay */
+    }
+ 
+    .section-heading {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .icon {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+        opacity: 0.5;
+    }
+    .read-more {
+        display: flex;
+        text-decoration: none;
+        color:white;
+        
+    }
+    .read-more:hover {
+        text-decoration: underline;
+    }
+    .read-more .arrow {
+        margin-left: 5px;
+    }
+  /* page5 */
+  .globle{
+    background-image:url('https://img.freepik.com/premium-photo/mid-adult-man-standing-against-blue-background_1048944-9681759.jpg');
+    
+     background-size: cover; 
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height:100vh; /* Set the height as needed */
+    color: white!important;
+  }
+  .bar{
+    background-color:transparent;
+    opacity:0.9;
+  }
+  /* page6 */
+  .page6{
+    background-image:url('https://thumbs.dreamstime.com/b/full-body-photo-sales-man-guy-cheerful-person-street-casual-look-clothes-directing-finger-empty-space-wear-striped-t-full-body-174397050.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    background: linear-gradient(to right, rgba(255, 165, 0, 1), rgba(0, 0, 0, 0.2)); /* Gradient from light black to full orange */
+  }
+  .container-custom {
+    height: 100vh; /* Full height of the viewport */
+}
+.left-side, .right-side {
+    position: relative;
+    height: 100%;
+}
+.left-side p {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.right-side p {
+    margin: 0;
+    padding: 10px 0;
+}
+.bottom{
+   background-color:black;
+   padding-top:30px;
+}
+ 
